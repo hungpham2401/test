@@ -1,0 +1,202 @@
+/* pc */
+@media (min-width: 64em){
+    .container-tuseday__body-list {
+        flex: 1;
+        margin-top: 3rem;
+        display: flex;
+    }
+    .footer__list {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px -2.5rem;
+    }
+    .header__logo-n {
+        margin-right: 16.5rem;
+    }
+    .header__btn-start {
+        width: 15rem; 
+        height: 4.2rem; 
+    }
+    .header__text-n {
+        padding: 0 20px;
+    }
+    .header__btn-login {
+        margin-right: 20px;
+    }
+    .slider{
+        height: 56rem;
+    }
+    .slider__body-header {
+        height: 11.2rem;
+    }
+    .slider__body-about{
+         letter-spacing: 0.53px;
+        
+    }
+    .container__first-list{
+        display: flex;
+    }
+    .container-second {
+        display: flex;
+    }
+    .second-input-btn {
+        margin-top: 3rem;
+    }
+    .container-second__img {
+        width: 10rem;
+    }
+    .conatainer-tuseday__img {
+        width: 53rem;
+    }
+    
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .container-second {
+        justify-content: space-around;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container {
+       
+    }
+    .slider__body-header {
+        height: 11.2rem;
+    }
+    .container-second {
+        /* display: flex;
+        justify-content: space-evenly; */
+        margin-top: 5rem;
+        padding: 0 20px;
+    }
+    .container-second__img {
+        width: 10rem;
+    }
+    .header__logo-n {
+    width: 7rem;
+    height: 4.3rem;
+    margin-right: 7.5rem;
+    }
+    .container-second__body-subheadding{
+        margin-top: 5px;
+    }
+    .second-input-btn{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .size-reponsive-btn {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .second-input{
+        width: 100%;
+        margin-right :0 ;
+    }
+    .container__first-list{
+        display: flex;
+    }
+    .container-scecond__body-headding {
+        line-height: 1;
+    }
+    .conatainer-tuseday__img {
+        width: 35rem;
+    }
+    .container-tuseday__body-item,
+    .container-tuseday__body-list {
+        margin-top: 3rem;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__list-item {
+        width: calc((100% -5rem)/2);
+        margin-top: 2rem;
+    }
+    .footer {
+        margin-top: 15.5px;
+    }
+    .container-second {
+        height: 44rem;
+    }
+}
+
+
+/* mobile */ 
+ @media (max-width: 46.1875em){
+    .header {
+        margin-bottom: 10px;
+        height: 46px;
+    }
+    .slider {
+        height: 200px;
+        justify-content :center;
+        
+    }
+    .slider__body-header {
+        font-size: 15px;
+    }
+    .slider__body-about{
+        font-size: 12px;
+        margin-top: 12px;
+       
+    }
+    .slider___body-btn{
+        margin-top: 10px;
+    }
+    .container__first-header {
+        font-size: 20px;
+    }
+    .container__first-list {
+        
+    }
+    .container__list-item + .container__list-item{
+        margin-top: 4rem;
+    }
+    .conatainert__list-item-subheadding {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .conatainert__list-item-headding {
+        margin-top: 2rem;
+    }
+    .container-second__img{
+        width: 100%;
+    }
+    .second-input,
+    .slider___body-btn1 {
+        margin-top: 20px;
+        width: calc(100% - 16px);
+    }
+    .container-second {
+        margin-top: 5rem;
+    }
+    .container-tuseday__body {
+        padding: 0 30px;
+        text-align: center;
+    }
+    .container-tuseday__body-item {
+        margin-top: 2rem;
+    }
+    .fix-btn {
+        width: 13.6rem;
+        height: 4.2rem;
+        background-color: rgb(60,100,177);
+       
+    }
+    .container-second__body-subheadding {
+        margin-top: 15px;
+    }
+    .conatainer-tuseday__img {
+        padding-left: 30px;
+        margin-top: 15px;
+        width: calc(100% - 32px);
+    }
+    .footer__list-item + .footer__list-item {
+        margin-top: 20px;
+    }
+    
+}
